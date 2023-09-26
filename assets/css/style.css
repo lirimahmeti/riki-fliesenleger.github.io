@@ -32,4 +32,16 @@
   border-radius: 10px;
   padding: 10px;
   text-align: start !important;
+}
+
+.testimonials {
+  background-color: 255;
+  border: 1px solid red;
+  max-width: 900px;
+  max-height: 2000px;
+}
+
+.bg-gradient-1 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(46, 41, 14) 34%, rgb(0, 0, 0) 100%);
 }/*# sourceMappingURL=style.css.map */
