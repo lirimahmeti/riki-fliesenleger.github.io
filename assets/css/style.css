@@ -1,7 +1,7 @@
 @media (min-width: 300px) {
   main {
     background-image: url("../images/mobile-bg.png");
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 @media (min-width: 768px) {
   main {
     background-image: url("../images/Desktop-bg2.png");
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 @media (min-width: 992px) {
   main {
-    height: 500px;
+    height: 600px;
     background-image: url("../images/Desktop-bg2.png");
     background-size: cover;
     background-attachment: fixed;
@@ -30,7 +30,7 @@
 }
 @media (min-width: 1200px) {
   main {
-    height: 600px;
+    height: 650px;
     background-image: url("../images/Desktop-bg2.png");
     background-size: cover;
     background-attachment: fixed;
