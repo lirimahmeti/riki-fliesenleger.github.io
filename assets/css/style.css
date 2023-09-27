@@ -53,10 +53,11 @@
 
 .bg-gradient-1 {
   background: rgb(0, 0, 0);
-  background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(46, 41, 14) 34%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(28deg, rgb(0, 0, 0) 12%, rgba(255, 255, 255, 0.062) 41%, rgb(0, 0, 0) 76%);
+  background-attachment: fixed;
 }
 
-.navbar-blur {
+.bg-blur {
   background-color: rgba(0, 0, 0, 0.425); /* Adjust the background color and opacity as needed */
   backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
 }
