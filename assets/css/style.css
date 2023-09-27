@@ -1,7 +1,7 @@
 @media (min-width: 300px) {
   main {
     background-image: url("../images/mobile-bg.png");
-    height: 650px;
+    height: 500px;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -11,16 +11,26 @@
 @media (min-width: 768px) {
   main {
     background-image: url("../images/Desktop-bg2.png");
-    height: 300px;
+    height: 500px;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: black;
   }
 }
+@media (min-width: 992px) {
+  main {
+    height: 500px;
+    background-image: url("../images/Desktop-bg2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+}
 @media (min-width: 1200px) {
   main {
-    height: 650px;
+    height: 600px;
     background-image: url("../images/Desktop-bg2.png");
     background-size: cover;
     background-attachment: fixed;
@@ -44,4 +54,13 @@
 .bg-gradient-1 {
   background: rgb(0, 0, 0);
   background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(46, 41, 14) 34%, rgb(0, 0, 0) 100%);
+}
+
+.navbar-blur {
+  background-color: rgba(0, 0, 0, 0.425); /* Adjust the background color and opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+}
+
+.ptc-5 {
+  padding-top: 70px;
 }/*# sourceMappingURL=style.css.map */
