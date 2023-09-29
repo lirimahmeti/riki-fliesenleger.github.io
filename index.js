@@ -7,10 +7,18 @@ let x;
 
 slider.addEventListener("mousedown", (e)=>{
     pressed = true;
-    startX = e.offsetX - innerslider.offsetLeft;
+    startX = (e.pageX || e.touches[0].pageX) - innerslider.offsetLeft;
     slider.style.cursor = "grabbing"
     console.log(innerslider.offsetLeft);
 });
+slider.addEventListener("touchstart", (e)=>{
+    pressed = true;
+    startX = (e.pageX || e.touches[0].pageX) - innerslider.offsetLeft;
+    slider.style.cursor = "grabbing"
+    console.log('keni prek ekranin');
+   
+});
+
 
 slider.addEventListener('mouseenter', ()=>{
     slider.style.cursor = "grab"
@@ -22,6 +30,19 @@ slider.addEventListener('mouseup', ()=>{
 
 window.addEventListener('mouseup', ()=>{
     pressed = false;
+})
+window.addEventListener('touchend', ()=>{
+    pressed = false;
+})
+
+slider.addEventListener('touchmove', (e)=>{
+    if(!pressed) return;
+    e.preventDefault();
+
+    x = e.offsetX || e.touches[0].pageX;
+
+    innerslider.style.left = `${x - startX}px`;
+    checkBoundary()
 })
 
 slider.addEventListener('mousemove', (e)=>{
