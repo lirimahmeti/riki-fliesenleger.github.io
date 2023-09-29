@@ -85,3 +85,23 @@
 .important{
     background-color: #1f35ff56;
 }
+.slider1{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+}
+.slider-inner{
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    transition: 0s ease-in-out;
+    pointer-events:none;
+}
+.slide-img{
+    height: 100%;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
