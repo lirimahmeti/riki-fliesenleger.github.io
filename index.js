@@ -51,7 +51,7 @@ slider.addEventListener('mousemove', (e)=>{
 
     x = e.offsetX;
 
-    innerslider.style.left = `${x - startX}px`;
+    innerslider.style.left = `${(x - startX)*2}px`;
     checkBoundary()
 })
 
@@ -64,4 +64,5 @@ function checkBoundary(){
     } else if(inner.right < outer.right){
         innerslider.style.left = `-${inner.width - outer.width}px`
     }
+    
 }
