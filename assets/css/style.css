@@ -51,12 +51,6 @@
   max-height: 2000px;
 }
 
-.bg-gradient-1 {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(28deg, rgb(0, 0, 0) 12%, rgba(255, 255, 255, 0.062) 41%, rgb(0, 0, 0) 76%);
-  background-attachment: fixed;
-}
-
 .bg-blur {
   background-color: rgba(0, 0, 0, 0.623); /* Adjust the background color and opacity as needed */
   backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
