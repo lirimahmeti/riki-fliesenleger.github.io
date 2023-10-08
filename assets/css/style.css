@@ -25,7 +25,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
 }
 @media (min-width: 1200px) {
@@ -35,7 +35,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
 }
 .card {
@@ -58,7 +58,7 @@
 }
 
 .bg-blur {
-  background-color: rgba(0, 0, 0, 0.425); /* Adjust the background color and opacity as needed */
+  background-color: rgba(0, 0, 0, 0.623); /* Adjust the background color and opacity as needed */
   backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
 }
 
