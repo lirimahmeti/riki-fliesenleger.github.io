@@ -2,7 +2,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 300px) {
     main{
-        background-image: url('../images/mobile-bg.png');
+        background-image: url('../images/mobile-bg.jpg');
         height: 600px;
         background-size: cover;
         background-attachment: scroll;
@@ -15,7 +15,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     main{
-        background-image: url('../images/Desktop-bg2.png');
+        background-image: url('../images/Desktop-bg2.jpg');
         height: 600px;
         background-size: cover;
         background-attachment: scroll;
@@ -28,7 +28,7 @@
 @media (min-width: 992px) {
     main{
         height: 600px;
-        background-image: url('../images/Desktop-bg2.png');
+        background-image: url('../images/Desktop-bg2.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 @media (min-width: 1200px) {
     main{
     height: 650px;
-    background-image: url('../images/Desktop-bg2.png');
+    background-image: url('../images/Desktop-bg2.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -52,12 +52,9 @@
 @media (min-width: 1400px) {}
 
 .card{
-    
-    
     border-radius: 10px;
     padding: 10px;
     text-align: start !important;
-    
 } 
 
 .testimonials{
@@ -75,7 +72,7 @@
 }
 
 .bg-blur {
-    background-color: rgba(0, 0, 0, 0.623); /* Adjust the background color and opacity as needed */
+    background-color: rgba(0, 0, 0, 0.829); /* Adjust the background color and opacity as needed */
     backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
 }
 
